@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TestMVCCore/obj
+/TestMVCCore/.vs/TestMVCCore/v16
+/TestMVCCore/Properties
+/TestMVCCore/appsettings.Development.json
+/TestMVCCore/appsettings.json
