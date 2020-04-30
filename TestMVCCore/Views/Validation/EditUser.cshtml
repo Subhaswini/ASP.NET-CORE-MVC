@@ -1,0 +1,11 @@
+﻿@model TestMVCCore.ViewModels.EditUserViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<form method="post" asp-controller="Validation" asp-action="EditUser">
+    <input asp-for="User.FirstName" placeholder="First name" />
+    <input asp-for="User.LastName" placeholder="Last name" />
+
+    <select asp-items="@(new SelectList(Model.Countries))" asp-for="User.Country"></select>
+
+    <input type="submit" value="Save" />
+</form>

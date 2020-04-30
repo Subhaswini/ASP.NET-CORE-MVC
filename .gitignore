@@ -7,3 +7,5 @@
 /TestMVCCore/Properties
 /TestMVCCore/appsettings.Development.json
 /TestMVCCore/appsettings.json
+/TestMVCCore/.vs/TestMVCCore
+/TestMVCCore/bin/Debug/netcoreapp3.1

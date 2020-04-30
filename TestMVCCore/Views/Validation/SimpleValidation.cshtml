@@ -1,0 +1,24 @@
+﻿@model TestMVCCore.Models.WebUser
+@using (var form = Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName)
+        @Html.ValidationMessageFor(m => m.FirstName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName)
+        @Html.ValidationMessageFor(m => m.LastName)
+    </div>
+
+    @*<div>
+        @Html.LabelFor(m => m.MailAddress)
+        @Html.TextBoxFor(m => m.MailAddress)
+        @Html.ValidationMessageFor(m => m.MailAddress)
+    </div>*@
+
+    <input type="submit" value="Submit"/>
+}
+
